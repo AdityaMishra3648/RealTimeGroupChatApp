@@ -11,4 +11,8 @@ public class test {
     public String greet(){
         return "hii there bro";
     }
+    @GetMapping("/sayhii")
+    public String hii(){
+        return "hii there here is you hii";
+    }
 }
