@@ -1,9 +1,10 @@
 package com.chatgroup.demo;
 
+import com.fasterxml.jackson.annotation.ObjectIdGenerator;
+
 public class User {
     private String Username;
     private String password;
-
     public String getUsername() {
         return Username;
     }
