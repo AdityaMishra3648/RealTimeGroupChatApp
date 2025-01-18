@@ -4,6 +4,7 @@ public class ChatMessage {
     private String content;
 
     public ChatMessage() {
+
     }
 
     public ChatMessage(String name, String content) {
